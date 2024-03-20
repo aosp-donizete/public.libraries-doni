@@ -1,0 +1,22 @@
+java_defaults {
+    name: "DoniAppDefaults",
+    static_libs: [
+        "libdoni_java"
+    ],
+    jni_libs: [
+        // "libdoni_jni"
+    ]
+}
+
+android_app {
+    name: "DoniApp",
+    srcs: ["src/**/*.kt"],
+    platform_apis: true,
+    certificate: "platform",
+    defaults: ["DoniAppDefaults"],
+    static_libs: [
+        "androidx.appcompat_appcompat",
+        "androidx-constraintlayout_constraintlayout",
+        "com.google.android.material_material"
+    ]
+}

@@ -1,0 +1,5 @@
+prebuilt_etc {
+    name: "public.libraries-doni",
+    src: "public.libraries.txt",
+    filename: "public.libraries-doni.txt",
+}

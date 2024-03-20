@@ -1,0 +1,2 @@
+# See https://android.googlesource.com/platform/ndk/+/master/docs/PlatformApis.md
+libdoni_jni.doni.so
