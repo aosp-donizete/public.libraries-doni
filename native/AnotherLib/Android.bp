@@ -1,5 +1,6 @@
 cc_library {
     name: "libanother",
+    vendor: true,
     srcs: ["src/**/*.cpp"],
     export_include_dirs: ["src/include"]
 }

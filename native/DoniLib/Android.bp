@@ -1,5 +1,7 @@
 cc_library {
     name: "libdoni_jni.doni",
+    vendor: true,
     srcs: ["src/**/*.cpp"],
+    header_libs: ["jni_headers"],
     shared_libs: ["libanother"]
 }

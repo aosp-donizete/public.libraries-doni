@@ -11,7 +11,9 @@ java_defaults {
 android_app {
     name: "DoniApp",
     srcs: ["src/**/*.kt"],
-    platform_apis: true,
+    vendor: true,
+    platform_apis: false,
+    sdk_version: "current",
     certificate: "platform",
     defaults: ["DoniAppDefaults"],
     static_libs: [
