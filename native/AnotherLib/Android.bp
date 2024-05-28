@@ -1,0 +1,5 @@
+cc_library {
+    name: "libanother",
+    srcs: ["src/**/*.cpp"],
+    export_include_dirs: ["src/include"]
+}
